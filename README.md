@@ -10,6 +10,7 @@ Hardware
 1.	ultrasonic sensor   1	        
 2.	LED		              x
 3.	potentiometer	      9
+5.  Resistor 330 ohms   1
 4.	Breadboard          1
 5.	Computer	          1
 6.	microUSB	          1 
@@ -19,8 +20,9 @@ Software
 --------------------
 Instruction
 
-การติดตั้งโปรแกรม
-1. เลือก
-2. ตั้งค่าและติดตั้ง driver เพื่อให้ใช้งาน ESP32 ได้โดยเข้าดูวิธีการตั้งค่า ESP32 ได้ที่ลิงค์ https://blog.thaieasyelec.com/espino32-ch2-how-to-develop-using-arduino-platform/
-
-![asdfasdf](https://user-images.githubusercontent.com/125423996/218939893-fdf3ef3b-da7b-40d5-90e0-891c3fdd2c4d.JPG)
+ไฟดาวน์ไลท์ควบคุมผ่านตัวต้านทานปรับค่าได้
+1. ต่อขา GND, 3v3, และ GPIO04 เข้าขา GND, VCC, และ SIG ของ potentiometer ตามลำดับ
+2. ต่อสายจากขา SIG ไปยังตัวต้านทาน
+3. ต่อวงจร LED 1 ดวงจากตัวต้านทานและต่อขา GND ให้เรียบร้อย
+4. ต่อสายสัญญาณจาก GPIO 36 ไปเชื่อมระหว่างตัวต้านทานและขา SIG
+5. เขียนโปรแกรมจากไฟล์ DownLight.ino
