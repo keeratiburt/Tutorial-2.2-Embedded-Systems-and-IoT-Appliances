@@ -35,6 +35,9 @@ Potentiometer
 
 ![what-is-potentiometer_3](https://user-images.githubusercontent.com/125423996/219269830-60df34ee-ca69-4e41-8c50-99788d37e086.jpg)
 [ภาพจาก riverglennapts.com]
+![asdasdsad](https://user-images.githubusercontent.com/125423996/219522043-142f2464-51ba-4b6b-92a0-c2ffe9662d04.JPG)
+
+
 --------------------
 
 T 5.2 การใช้งาน Relay ควบคุมเครื่องใช้ไฟฟ้าภายในบ้าน
@@ -57,3 +60,8 @@ Relay
 
 ฝั่ง input จะมี 3 ขาคือ VCC และ GND ทำหน้าที่เป็นไฟเลี้ยงให้รีเลย์ทำงาน และขา IN เพื่อรับค่ามาจากไมโครคอนโทรลเลอร์
 ฝั่ง output จะมี 3 ขาเช่นกัน คือ NO, NC, และ Common โดยขา NO ย่อมาจาก Normal Open และ NC ย่อมาจาก Normal close
+
+![sdfsdfsdfdf](https://user-images.githubusercontent.com/125423996/219522596-739e4e98-6796-4952-8fa4-ce29fc6ba3c9.JPG)
+[ภาพจาก etechnog.com]
+
+
