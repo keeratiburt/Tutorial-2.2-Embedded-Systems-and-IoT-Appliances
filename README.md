@@ -2,26 +2,24 @@
 
 
 Objectives
-1.	ใช้งาน if-else สร้างเงื่อนไขเพื่อสั่งการอุปกรณ์จากค่าที่ได้รับจากเซ็นเซอร์ได้
-2.	ใช้งาน for loop สร้างเงื่อนไขเพื่อสั่งการอุปกรณ์จากค่าที่ได้รับจากเซ็นเซอร์ได้
-3.	ใช้งาน while loop สร้างเงื่อนไขเพื่อสั่งการอุปกรณ์จากค่าที่ได้รับจากเซ็นเซอร์ได้
+1.	ควบคุมเครื่องใช้ไฟฟ้าผ่าน dashboard ด้วย relay ได้
 
 Hardware
-1.	ultrasonic sensor   1	        
-2.	LED		              x
-3.	potentiometer	      1
-4.  Relay 2CH           1
-5.  Resistor 330 ohms   1
-4.	Breadboard          1
-5.	Computer	          1
-6.	microUSB	          1 
+1.	Touch Sensor          1	        
+2.	LED		                x
+4.  Solid StateRelay 2CH  1
+5.  Resistor 330 ohms     1
+4.	Breadboard            1
+5.	Computer	            1
+6.	microUSB	            1
+7.	microcontroller       1   
 
 Software
-1. Arduino IDE v
+1. Arduino IDE
 --------------------
 Instruction
 
-T 5.1 ไฟดาวน์ไลท์ควบคุมผ่านตัวต้านทานปรับค่าได้
+T สร้างระบบควบคุมหลอดไฟและพัดลม
 1. ที่ตัว potentiometer ต่อขา GND และ VCC เข้าขา GND และ GPIO 04 ของ ESP32 ตามลำดับ
 2. ที่ตัว potentiometer ต่อขา SIG ไปยังขาหนึ่งของตัวต้านทาน
 3. ต่อวงจร LED 1 ดวงจากตัวต้านทานและต่อขา GND ให้เรียบร้อย
